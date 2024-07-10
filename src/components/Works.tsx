@@ -13,23 +13,23 @@ export default function WorksSection() {
       <div className="w-full flex flex-col justify-between items-center text-white text-center font-bold text-2xl md:gap-10 px-10 py-2">
         <div className="w-full flex flex-col md:flex-row justify-evenly items-center">
           <ImageContainer
-            src={"/src/assets/work1.png"}
+            src={"../../public/assets/work1.png"}
             style={"w-[70%] m-5 md:m-0 md:w-96"}
           />
 
           <ImageContainer
-            src={"/src/assets/work2.png"}
+            src={"../../public/assets/work2.png"}
             style={"w-[70%] m-5 md:m-0 md:w-96"}
           />
         </div>
 
         <div className="w-full flex flex-col md:flex-row justify-evenly items-center">
           <ImageContainer
-            src={"/src/assets/work3.png"}
+            src={"../../public/assets/work3.png"}
             style={"w-[70%] m-5 md:m-0 md:w-80"}
           />
           <ImageContainer
-            src={"/src/assets/work4.png"}
+            src={"../../public/assets/work4.png"}
             style={"w-[70%] m-5 md:m-0 md:w-80"}
           />
         </div>

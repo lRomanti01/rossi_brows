@@ -51,7 +51,7 @@ function App() {
       </section>
       <section className="relative w-full flex justify-between items-center my-20">
         <img
-          src="/src/assets/leftArrow.png"
+          src="../public/assets/leftArrow.png"
           className="w-[15vw] sm:w-30 md:w-40"
         />
         <WhatsAppButton
@@ -59,7 +59,7 @@ function App() {
           message="Hola! Quiero agendar un cita."
         />
         <img
-          src="/src/assets/rightArrow.png"
+          src="../public/assets/rightArrow.png"
           className="w-[15vw] sm:w-30 md:w-40"
         />
       </section>
