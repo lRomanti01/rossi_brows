@@ -7,7 +7,7 @@ export default function ServicesSection() {
         <h1 className="text-white text-center text-3xl md:text-5xl">
           Servicios
         </h1>
-        <img className="w-52" src="/src/assets/highlight.png" />
+        <img className="w-52" src="/assets/highlight.png" />
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center text-white text-center font-bold text-2xl md:gap-7 px-10 py-2">

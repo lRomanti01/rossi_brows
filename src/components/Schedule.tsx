@@ -7,7 +7,7 @@ export default function ScheduleSection() {
         <h1 className="text-white text-center text-3xl md:text-5xl">
           Horario laboral
         </h1>
-        <img className="w-full" src="/src/assets/highlight.png" />
+        <img className="w-full" src="/assets/highlight.png" />
       </div>
 
       <div className="w-full sm:w-[70%] md:w-[75%] xl:w-[50%] flex flex-col justify-between items-center text-white text-center font-bold text-2xl md:gap-7 px-10 py-2">
