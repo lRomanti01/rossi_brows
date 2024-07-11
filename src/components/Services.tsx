@@ -24,7 +24,7 @@ export default function ServicesSection() {
         </div>
 
         <div className="flex flex-col">
-          <ServiceBox name="Cejas semi-permanentes" />
+          <ServiceBox name="Borrado se cejas con láser" />
           <ServiceBox name="Facial clásico" />
           <ServiceBox name="Microdermabrasion" />
           <ServiceBox name="Tratamiento de acné" />

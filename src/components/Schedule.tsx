@@ -1,4 +1,5 @@
 import ScheduleBox from "./ScheduleBox";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function ScheduleSection() {
   return (
@@ -10,13 +11,28 @@ export default function ScheduleSection() {
         <img className="w-full" src="/assets/highlight.png" />
       </div>
 
-      <div className="w-full sm:w-[70%] md:w-[75%] xl:w-[50%] flex flex-col justify-between items-center text-white text-center font-bold text-2xl md:gap-7 px-10 py-2">
-        <ScheduleBox day={"Lunes"} hours="3:00 - 8:00 PM" />
-        <ScheduleBox day={"Martes"} hours="10:00 AM / OPEN" />
-        <ScheduleBox day={"Miercoles"} hours="10:00 AM / OPEN" />
-        <ScheduleBox day={"Jueves"} hours="10:00 AM / OPEN" />
-        <ScheduleBox day={"Viernes"} hours="10:00 AM / OPEN" />
-        <ScheduleBox day={"Sábados"} hours="10:00 AM / OPEN" />
+      <div className="w-full sm:w-[70%] md:w-[75%] xl:w-[50%] flex flex-col justify-between items-center font-bold text-white text-center md:gap-7 px-10 py-2">
+        <ScrollAnimation animateIn="fadeIn" className="w-full">
+          <ScheduleBox day={"Lunes"} hours="3:00 - 8:00 PM" />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" className="w-full">
+          <ScheduleBox day={"Martes"} hours="10:00 AM - 06:00 PM" />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" className="w-full">
+          <ScheduleBox day={"Miercoles"} hours="10:00 AM - 06:00 PM" />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" className="w-full">
+          <ScheduleBox day={"Jueves"} hours="10:00 AM - 06:00 PM" />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" className="w-full">
+          <ScheduleBox day={"Viernes"} hours="10:00 AM - 06:00 PM" />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" className="w-full">
+          <ScheduleBox day={"Sábados"} hours="10:00 AM - 06:00 PM" />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeIn" className="w-full">
+          <ScheduleBox day={"Domingo"} hours="Cerrado" />
+        </ScrollAnimation>
       </div>
     </section>
   );

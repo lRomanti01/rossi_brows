@@ -4,14 +4,14 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        marquee: {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(-100%)" },
+        pulseLess: {
+          "0%, 100%": { opacity: 1 },
+          "50%": { opacity: 0.80 }, // Ajusta este valor para cambiar la opacidad mínima
         },
       },
       animation: {
-        marquee: "marquee 20s linear infinite",
-        pulseFast: "pulse 2s infinite",
+        pulseFastLess: "pulseLess 2s infinite",
+        pulseFast: "pulse 1.5s infinite",
       },
     },
   },
