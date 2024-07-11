@@ -1,12 +1,10 @@
 import Header from "./components/Header";
 import Band from "./components/Band";
-import InformationSection from "./components/Information";
 import ServicesSection from "./components/Services";
 import WorksSection from "./components/Works";
 import ScheduleSection from "./components/Schedule";
 import WhatsAppButton from "./components/WhatsappButton";
 import "animate.css/animate.compat.css";
-import ScrollAnimation from "react-animate-on-scroll";
 
 function App() {
   return (
