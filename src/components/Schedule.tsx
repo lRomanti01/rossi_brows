@@ -13,22 +13,22 @@ export default function ScheduleSection() {
 
       <div className="w-full sm:w-[70%] md:w-[75%] xl:w-[50%] flex flex-col justify-between items-center font-bold text-white text-center md:gap-7 px-10 py-2">
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Lunes"} hours="3:00 PM - 8:00 PM" />
+          <ScheduleBox day={"Lunes"} hours="Cerrado" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Martes"} hours="10:00 AM - 06:00 PM" />
+          <ScheduleBox day={"Martes"} hours="11:00 AM - 06:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Miercoles"} hours="10:00 AM - 06:00 PM" />
+          <ScheduleBox day={"Miercoles"} hours="11:00 AM - 06:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Jueves"} hours="10:00 AM - 06:00 PM" />
+          <ScheduleBox day={"Jueves"} hours="03:00 PM - 09:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Viernes"} hours="10:00 AM - 06:00 PM" />
+          <ScheduleBox day={"Viernes"} hours="03:00 PM - 09:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Sábados"} hours="10:00 AM - 06:00 PM" />
+          <ScheduleBox day={"Sábados"} hours="03:00 PM - 09:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
           <ScheduleBox day={"Domingo"} hours="Cerrado" />

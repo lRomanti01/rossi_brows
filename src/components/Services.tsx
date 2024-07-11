@@ -11,19 +11,19 @@ export default function ServicesSection() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center text-white text-center font-bold text-2xl md:gap-7 px-10 py-2">
-        <div className="flex flex-col">
+        <div className="w-full md:w-auto flex flex-col">
           <ServiceBox name="Diseño de cejas" />
-          <ServiceBox name="Borrado de cejas tatuadas" />
+          {/* <ServiceBox name="Borrado de cejas tatuadas" /> */}
           <ServiceBox name="Hidrafacial" />
           <ServiceBox name="Hollywood peel" />
+          <ServiceBox name="Laminación de cejas" />
         </div>
 
         <div className="w-full md:w-auto flex flex-col">
-          <ServiceBox name="Laminación de cejas" />
           <ServiceBox name="Tintado de cejas" />
         </div>
 
-        <div className="flex flex-col">
+        <div className="w-full md:w-auto flex flex-col">
           <ServiceBox name="Borrado se cejas con láser" />
           <ServiceBox name="Facial clásico" />
           <ServiceBox name="Microdermabrasion" />
