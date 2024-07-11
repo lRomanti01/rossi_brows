@@ -13,7 +13,7 @@ export default function ScheduleSection() {
 
       <div className="w-full sm:w-[70%] md:w-[75%] xl:w-[50%] flex flex-col justify-between items-center font-bold text-white text-center md:gap-7 px-10 py-2">
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Lunes"} hours="3:00 - 8:00 PM" />
+          <ScheduleBox day={"Lunes"} hours="3:00 PM - 8:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
           <ScheduleBox day={"Martes"} hours="10:00 AM - 06:00 PM" />
