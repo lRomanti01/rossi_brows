@@ -16,19 +16,19 @@ export default function ScheduleSection() {
           <ScheduleBox day={"Lunes"} hours="Cerrado" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Martes"} hours="11:00 AM - 06:00 PM" />
+          <ScheduleBox day={"Martes"} hours="10:00 AM - 07:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Miercoles"} hours="11:00 AM - 06:00 PM" />
+          <ScheduleBox day={"Miercoles"} hours="10:00 AM - 07:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Jueves"} hours="03:00 PM - 09:00 PM" />
+          <ScheduleBox day={"Jueves"} hours="10:00 AM - 07:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Viernes"} hours="03:00 PM - 09:00 PM" />
+          <ScheduleBox day={"Viernes"} hours="10:00 PM - 07:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
-          <ScheduleBox day={"Sábados"} hours="03:00 PM - 09:00 PM" />
+          <ScheduleBox day={"Sábados"} hours="10:00 PM - 07:00 PM" />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" className="w-full">
           <ScheduleBox day={"Domingo"} hours="Cerrado" />
